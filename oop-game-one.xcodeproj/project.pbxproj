@@ -14,6 +14,11 @@
 		E99CA9001BE989FC0000E5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99CA8FE1BE989FC0000E5ED /* LaunchScreen.storyboard */; };
 		E99CA90B1BE989FC0000E5ED /* oop_game_oneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CA90A1BE989FC0000E5ED /* oop_game_oneTests.swift */; };
 		E99CA9161BE989FD0000E5ED /* oop_game_oneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CA9151BE989FD0000E5ED /* oop_game_oneUITests.swift */; };
+		E9E9E5EF1BEC31DC007F95BB /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9E5EE1BEC31DC007F95BB /* Character.swift */; };
+		E9E9E5F11BEC32F2007F95BB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9E5F01BEC32F2007F95BB /* Player.swift */; };
+		E9E9E5F31BEC33FC007F95BB /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9E5F21BEC33FC007F95BB /* Enemy.swift */; };
+		E9E9E5F51BEC3541007F95BB /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9E5F41BEC3541007F95BB /* Kimara.swift */; };
+		E9E9E5F71BEC3631007F95BB /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E9E5F61BEC3631007F95BB /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		E99CA9111BE989FD0000E5ED /* oop-game-oneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oop-game-oneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99CA9151BE989FD0000E5ED /* oop_game_oneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oop_game_oneUITests.swift; sourceTree = "<group>"; };
 		E99CA9171BE989FD0000E5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E9E5EE1BEC31DC007F95BB /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E9E9E5F01BEC32F2007F95BB /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E9E9E5F21BEC33FC007F95BB /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		E9E9E5F41BEC3541007F95BB /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		E9E9E5F61BEC3631007F95BB /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				E99CA8F51BE989FC0000E5ED /* AppDelegate.swift */,
 				E99CA8F71BE989FC0000E5ED /* ViewController.swift */,
+				E9E9E5EE1BEC31DC007F95BB /* Character.swift */,
+				E9E9E5F01BEC32F2007F95BB /* Player.swift */,
+				E9E9E5F21BEC33FC007F95BB /* Enemy.swift */,
+				E9E9E5F41BEC3541007F95BB /* Kimara.swift */,
+				E9E9E5F61BEC3631007F95BB /* DevilWizard.swift */,
 				E99CA8F91BE989FC0000E5ED /* Main.storyboard */,
 				E99CA8FC1BE989FC0000E5ED /* Assets.xcassets */,
 				E99CA8FE1BE989FC0000E5ED /* LaunchScreen.storyboard */,
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					E99CA8F11BE989FB0000E5ED = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 56P3PHE54L;
 					};
 					E99CA9051BE989FC0000E5ED = {
 						CreatedOnToolsVersion = 7.1;
@@ -256,6 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E9E5F11BEC32F2007F95BB /* Player.swift in Sources */,
+				E9E9E5F31BEC33FC007F95BB /* Enemy.swift in Sources */,
+				E9E9E5F71BEC3631007F95BB /* DevilWizard.swift in Sources */,
+				E9E9E5F51BEC3541007F95BB /* Kimara.swift in Sources */,
+				E9E9E5EF1BEC31DC007F95BB /* Character.swift in Sources */,
 				E99CA8F81BE989FC0000E5ED /* ViewController.swift in Sources */,
 				E99CA8F61BE989FC0000E5ED /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "oop-game-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasharris.oop-game-one";
@@ -408,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "oop-game-one/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasharris.oop-game-one";
@@ -482,6 +505,7 @@
 				E99CA91C1BE989FD0000E5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99CA91D1BE989FD0000E5ED /* Build configuration list for PBXNativeTarget "oop-game-oneTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +514,7 @@
 				E99CA91F1BE989FD0000E5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E99CA9201BE989FD0000E5ED /* Build configuration list for PBXNativeTarget "oop-game-oneUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +523,7 @@
 				E99CA9221BE989FD0000E5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
